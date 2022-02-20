@@ -1,0 +1,7 @@
+---
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Description: Creating S3 bucket using cloudformation
+    Properties:
+      BucketName: my-bucket-using-cf
